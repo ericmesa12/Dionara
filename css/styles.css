@@ -47,14 +47,14 @@ footer {
   border-radius: 5px;
   text-align: center;
   margin-top: 50px;
-  background-color: rgba(85, 85, 85, 0.664);
+  background-color: rgba(85, 85, 85, 0.877);
   box-shadow: 0px 0px 10px 0px rgb(255, 255, 255);
   display: flex;
 }
 
 .flexBack {
   box-shadow: 0px 0px 10px 0px rgb(255, 255, 255);
-  background-color: rgba(85, 85, 85, 0.459);
+  background-color: rgba(85, 85, 85, 0.877);
   border-radius: 5px;
   margin-top: 30px;
   padding: 20px 0px 20px 0px;
