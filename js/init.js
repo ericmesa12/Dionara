@@ -1,9 +1,7 @@
 function cardsClick(id) {
-  document
-    .getElementById("" + id + "")
-    .addEventListener("touchstart", function () {
-      window.location = id + ".html";
-    });
+  document.getElementById("" + id + "").addEventListener("click", function () {
+    window.location = id + ".html";
+  });
 }
 
 document.addEventListener("DOMContentLoaded", function () {
