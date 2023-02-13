@@ -1,25 +1,24 @@
 {
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  },
   "name": "dionara",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "devDependencies": {},
   "scripts": {
-    "dev": "lite-server",
+    "dev":"lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ericmesa12/Centro-Holistico.git"
+    "url": "git+https://github.com/ericmesa12/Dionara.git"
   },
   "author": "Eric Mesa",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ericmesa12/Centro-Holistico/issues"
+    "url": "https://github.com/ericmesa12/Dionara/issues"
   },
-  "homepage": "https://github.com/ericmesa12/Centro-Holistico#readme",
-  "dependencies": {
-    "awesome": "^0.0.7",
-    "font": "^0.0.4",
-    "lite-server": "^2.6.1"
-  }
+  "homepage": "https://github.com/ericmesa12/Dionara#readme",
+  "description": ""
 }

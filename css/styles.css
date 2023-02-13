@@ -5,7 +5,7 @@
 
 body {
   contain: content;
-  background-image: url(img/Fondo\ Final.jpg);
+  background-image: url(../img/Fondo\ Final.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
