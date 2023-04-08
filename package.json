@@ -1,13 +1,8 @@
 {
-  "dependencies": {
-    "lite-server": "^2.6.1"
-  },
   "name": "dionara",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
-    "dev":"lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +15,8 @@
     "url": "https://github.com/ericmesa12/Dionara/issues"
   },
   "homepage": "https://github.com/ericmesa12/Dionara#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.60.0"
+  }
 }
