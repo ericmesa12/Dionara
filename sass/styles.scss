@@ -1,10 +1,11 @@
 $color-dominante: rgb(132, 24, 255);
 $color-secundario: rgb(255, 255, 255);
+$color-fondo:rgba(85, 85, 85, 0.705);
 $radius-general: 6px;
 
 * {
   color: white;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -51,16 +52,20 @@ footer {
   border-radius: $radius-general;
   text-align: left;
   margin-top: 50px;
-  background-color: rgba(85, 85, 85, 0.877);
+  background-color:$color-fondo;
   box-shadow: 0px 0px 10px 0px $color-secundario;
 }
 
 .flexBack {
+  max-width: 950px;
   box-shadow: 0px 0px 10px 0px $color-secundario;
-  background-color: rgba(85, 85, 85, 0.877);
+  background-color:$color-fondo;
   border-radius: $radius-general;
   margin-top: 30px;
-  padding: 20px 0px 20px 0px;
+}
+
+.content{
+  justify-content:space-around;
 }
 
 .contenedorIMG {
@@ -70,7 +75,7 @@ footer {
   background-color: rgba(146, 146, 146, 0.719);
   border-radius: $radius-general;
   box-shadow: 0px 0px 10px 0px $color-secundario;
-  flex: 1 200px;
+  
 }
 
 .contenedorIMG:hover {

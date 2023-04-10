@@ -1,6 +1,6 @@
 * {
   color: white;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 body {
@@ -47,16 +47,20 @@ footer {
   border-radius: 6px;
   text-align: left;
   margin-top: 50px;
-  background-color: rgba(85, 85, 85, 0.877);
+  background-color: rgba(85, 85, 85, 0.705);
   box-shadow: 0px 0px 10px 0px rgb(255, 255, 255);
 }
 
 .flexBack {
+  max-width: 950px;
   box-shadow: 0px 0px 10px 0px rgb(255, 255, 255);
-  background-color: rgba(85, 85, 85, 0.877);
+  background-color: rgba(85, 85, 85, 0.705);
   border-radius: 6px;
   margin-top: 30px;
-  padding: 20px 0px 20px 0px;
+}
+
+.content {
+  justify-content: space-around;
 }
 
 .contenedorIMG {
@@ -66,7 +70,6 @@ footer {
   background-color: rgba(146, 146, 146, 0.719);
   border-radius: 6px;
   box-shadow: 0px 0px 10px 0px rgb(255, 255, 255);
-  flex: 1 200px;
 }
 
 .contenedorIMG:hover {
